@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
-h1{
-    background-color: mediumblue;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --cor01:#b7c3f3;
+    --cor02:#5688c7;
+}
+
+header{
+    background-image: linear-gradient(#b7b7b7 ,  #5688c7);
+    padding: 20px;
 }
