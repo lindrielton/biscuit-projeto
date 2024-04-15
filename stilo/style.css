@@ -7,9 +7,52 @@
 :root{
     --cor01:#b7c3f3;
     --cor02:#5688c7;
+    --cor03:#2c0e37;
+    --cor04:#690375;
+    --cor04:#cb429f;
+    --cor06:rgba(0, 0, 0, 0.713);
 }
 
 header{
     background-image: linear-gradient(#b7b7b7 ,  #5688c7);
+    padding: 40px;
+    
+}
+header h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgba(0, 0, 0, 0.608);
+}
+header p{
+    text-align: center;
+}
+div{
+    background-color: var(--cor03);
     padding: 20px;
+    width: 300px;
+    height: 200px;
+    border-top-right-radius: 10px;
+
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(0, 0, 0, 0.633);
+    padding: 10px;
+    background-color: var(--cor06);
+}
+div a{
+    text-decoration: none;
+    color: white;
+    border: 15px;
+
+}
+div p{
+    text-align:left;
+    padding: 10px;
+    color: white;
+    font-size:1.3em;
+    width: 70px;
+    height: 15px;
+    background-color: var(--cor02);
+    border-radius: 5px;
 }
