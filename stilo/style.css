@@ -9,7 +9,7 @@
     --cor02:#5688c7;
     --cor03:#2c0e37;
     --cor04:#690375;
-    --cor04:#cb429f;
+    --cor05:#cb429f;
     --cor06:rgba(0, 0, 0, 0.713);
 }
 
@@ -22,28 +22,39 @@ header h1{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:rgba(0, 0, 0, 0.608);
+    font-variant: small-caps;
+    font-size: 6vw;
 }
 header p{
     text-align: center;
 }
+
+main img{
+    max-width: 570px;
+    min-width: 200px;
+} 
+
+
 div{
-    background-color: var(--cor03);
+    background-color: var(--cor02);
     padding: 20px;
-    width: 300px;
     height: 200px;
     border-top-right-radius: 10px;
+    
+
 
 }
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgba(0, 0, 0, 0.633);
     padding: 10px;
-    background-color: var(--cor06);
+    background-color: var(--cor02);
 }
 div a{
     text-decoration: none;
-    color: white;
+    color:var(--cor05);
     border: 15px;
+    
 
 }
 div p{
@@ -51,8 +62,9 @@ div p{
     padding: 10px;
     color: white;
     font-size:1.3em;
-    width: 70px;
-    height: 15px;
-    background-color: var(--cor02);
-    border-radius: 5px;
+    width: 300px;
+    color: var(--cor06);
+    background-color: var(--cor01);
+    border-top-right-radius: 10px;
+    margin-bottom: 10px;
 }
