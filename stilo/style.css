@@ -29,20 +29,14 @@ header p{
     text-align: center;
 }
 
-main img{
-    max-width: 570px;
-    min-width: 200px;
-} 
-
-
 div{
     background-color: var(--cor02);
     padding: 20px;
-    height: 200px;
+    height: 500px;
     border-top-right-radius: 10px;
-    
-
-
+    background-image: url(../imagens/fundo.jpg);
+    background-position: center center;
+    background-size: cover; 
 }
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
