@@ -11,6 +11,7 @@
     --cor04:#690375;
     --cor05:#cb429f;
     --cor06:rgba(0, 0, 0, 0.713);
+    --cor07:blue;
 }
 
 header{
@@ -31,6 +32,9 @@ header p{
 
 p.qudrado{
     position:relative ;
+    
+   
+   
 }
 div{
     background-color: var(--cor02);
@@ -38,10 +42,12 @@ div{
     height: 500px;
     border-top-right-radius: 10px;
     background-image: url(../imagens/fundo.jpg);
-    background-position: left;
+    background-position: left left;
     background-size: cover; 
+    width: 100vw;
     position: absolute
-    background-position: ;
+
+    
     
 }
 h2{
@@ -52,19 +58,31 @@ h2{
 }
 div a{
     text-decoration: none;
-    color:var(--cor05);
-    border: 15px;
-    
-
+    color:var(--cor03);
+    font-size: 0.9em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 div p{
-    text-align:left;
-    padding: 10px;
+    
+    padding:10px;
     color: white;
     font-size:1.3em;
-    width: 300px;
-    color: var(--cor06);
-    background-color: var(--cor01);
+    width: 295px;
+    color: var(--cor07);
+    background-color: rgba(255, 255, 255, 0.352);
     border-top-right-radius: 10px;
     margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.what::after{
+    content:"📴";
+
+}
+.inst::after{
+    content:"#️" ;
+}
+.tik::after{
+    content: "🎬";
 }
