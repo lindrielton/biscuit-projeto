@@ -17,6 +17,7 @@
 header{
     background-image: linear-gradient(#b7b7b7 ,  #5688c7);
     padding: 40px;
+   
     
 }
 header h1{
@@ -25,6 +26,7 @@ header h1{
     color:rgba(0, 0, 0, 0.608);
     font-variant: small-caps;
     font-size: 6vw;
+   
 }
 header p{
     text-align: center;
@@ -45,7 +47,9 @@ div{
     background-position: left left;
     background-size: cover; 
     width: 100vw;
-    position: absolute
+    position: absolute;
+    min-width: 295px;
+    
 
     
     
@@ -61,6 +65,8 @@ div a{
     color:var(--cor03);
     font-size: 0.9em;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    min-width: 395px;
+   
 }
 div p{
     
@@ -73,7 +79,8 @@ div p{
     border-top-right-radius: 10px;
     margin-bottom: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
+    min-width: 295px;
+   
 }
 
 .what::after{
