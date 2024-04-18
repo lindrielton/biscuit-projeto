@@ -35,9 +35,12 @@ h1{
 
 main{
     background-image: url(../imagens/fundo.jpg);
-    height: 500px;
+    height: 100vh;
+    width: 100vw;
     background-size: cover;
-    background-position: left left;
+    background-position: left top;
+    
+    
 }
 div a{
     display:block;
@@ -62,6 +65,7 @@ article p{
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-indent: 30px;
     line-height: 1.5;
+    
 
 }
 article{
@@ -72,5 +76,17 @@ footer{
     padding: 6px;
     border-radius: 5px;
     font-size: large;
+    background-color: var(--cor06);
+    color: white;
+    box-shadow: 5px 3px 5px black;
     
+}
+.emoji::after{
+    content:"📴";
+}
+.inst::after{
+    content: "💬";
+}
+.tik::after{
+    content: "💗";
 }
