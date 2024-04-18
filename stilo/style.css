@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family:"sedan" ;
+    src: url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+    
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -14,6 +20,7 @@
     --cor05:#cb429f;
     --cor06:rgba(0, 0, 0, 0.713);
     --cor07:blue;
+    --font01: "sedan";
     
     
 }
@@ -51,7 +58,8 @@ div a{
     width: 200px;
     border-top-right-radius:5px;
     background-color: rgba(255, 255, 255, 0.723);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:var(--font01);
+    font-size: 1.1em;
 }
 a:hover{
     text-decoration: underline;
@@ -59,7 +67,12 @@ a:hover{
 }
 div h2{
     padding: 5px;
-    color: var(--cor06);
+    color: var(--cor03);
+    font-size:1.5em;
+    width: 150px;
+    background-color: var(--cor01);
+    border-bottom-right-radius: 5px;
+    
 }
 article p{
     text-align: justify;
