@@ -60,6 +60,7 @@ div a{
     background-color: rgba(255, 255, 255, 0.723);
     font-family:var(--font01);
     font-size: 1.1em;
+    color: var(--cor07);
 }
 a:hover{
     text-decoration: underline;
@@ -70,8 +71,8 @@ div h2{
     color: var(--cor03);
     font-size:1.5em;
     width: 150px;
-    background-color: var(--cor01);
-    border-bottom-right-radius: 5px;
+    text-decoration: underline;
+   
     
 }
 article p{
