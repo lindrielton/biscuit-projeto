@@ -98,7 +98,7 @@ footer{
     
 }
 .emoji::after{
-    content:"📴";
+    content:"📞";
 }
 .inst::after{
     content: "💬";
