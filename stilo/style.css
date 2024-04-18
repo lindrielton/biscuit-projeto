@@ -4,6 +4,8 @@
     margin: 0px;
     padding: 0px;
 }
+
+    
 :root{
     --cor01:#b7c3f3;
     --cor02:#5688c7;
@@ -12,85 +14,63 @@
     --cor05:#cb429f;
     --cor06:rgba(0, 0, 0, 0.713);
     --cor07:blue;
+    
+    
 }
-
 header{
-    background-image: linear-gradient(#b7b7b7 ,  #5688c7);
-    padding: 40px;
-   
+    background-color:var(--cor02) ;
+    padding: 50px;
+    margin: auto;
     
 }
-header h1{
+header h1, p {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color:rgba(0, 0, 0, 0.608);
+    color: rgba(0, 0, 0, 0.713);   
+}
+h1{
     font-variant: small-caps;
-    font-size: 6vw;
-   
-}
-header p{
-    text-align: center;
+    padding: 5px;
 }
 
-p.qudrado{
-    position:relative ;
-} 
 main{
-    min-width: 300px;
-}
-div{
-    background-color: var(--cor02);
-    padding: 20px;
-    height: 500px;
-    border-top-right-radius: 10px;
     background-image: url(../imagens/fundo.jpg);
+    height: 500px;
+    background-size: cover;
     background-position: left left;
-    background-size: cover; 
-    width: 100vw;
-    position: absolute;
-    min-width: 295px;
-    margin-left: auto;
-    
-
-    
-    
-}
-h2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgba(0, 0, 0, 0.633);
-    padding: 10px;
-    background-color: var(--cor02);
 }
 div a{
+    display:block;
     text-decoration: none;
-    color:var(--cor03);
-    font-size: 0.9em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    min-width: 395px;
-   
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    border-top-right-radius:5px;
+    background-color: rgba(255, 255, 255, 0.356);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-div p{
-    margin: 10px 10px 10px 1px;
-    padding:10px;
-    color: white;
-    font-size:1.3em;
-    width: 295px;
-    color: var(--cor07);
-    background-color: rgba(255, 255, 255, 0.352);
-    border-top-right-radius: 10px;
-    margin-bottom: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    min-width: 295px;
-   
+a:hover{
+    text-decoration: underline;
+    color:var(--cor04);
 }
-
-.what::after{
-    content:"📴";
+div h2{
+    padding: 5px;
+    color: var(--cor06);
+}
+article p{
+    text-align: justify;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-indent: 30px;
+    line-height: 1.5;
 
 }
-.inst::after{
-    content:"#️" ;
+article{
+    background-color: var(--cor01);
 }
-.tik::after{
-    content: "🎬";
+footer{
+    text-align: center;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: large;
+    
 }
