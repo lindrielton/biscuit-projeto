@@ -20,6 +20,7 @@
     --cor05:#cb429f;
     --cor06:rgba(0, 0, 0, 0.713);
     --cor07:blue;
+    --cor08:;
     --font01: "sedan";
     
     
@@ -55,7 +56,7 @@ div a{
     text-decoration: none;
     padding: 10px;
     margin: 5px;
-    width: 200px;
+    width: 210px;
     border-top-right-radius:5px;
     background-color: rgba(255, 255, 255, 0.723);
     font-family:var(--font01);
@@ -64,11 +65,11 @@ div a{
 }
 a:hover{
     text-decoration: underline;
-    color:var(--cor04);
+    color:var(--cor03);
 }
 div h2{
     padding: 5px;
-    color: var(--cor03);
+    color:black;
     font-size:1.5em;
     width: 150px;
     text-decoration: underline;
