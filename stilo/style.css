@@ -29,7 +29,7 @@ header h1, p {
     color: rgba(0, 0, 0, 0.713);   
 }
 h1{
-    font-variant: small-caps;
+    font-variant:small-caps;
     padding: 5px;
 }
 
@@ -46,7 +46,7 @@ div a{
     margin: 5px;
     width: 200px;
     border-top-right-radius:5px;
-    background-color: rgba(255, 255, 255, 0.356);
+    background-color: rgba(255, 255, 255, 0.723);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 a:hover{
